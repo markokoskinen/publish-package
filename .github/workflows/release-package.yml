@@ -12,4 +12,6 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
+        working-directory: sample-packages/npm
       - run: npm test
+        working-directory: sample-packages/npm
